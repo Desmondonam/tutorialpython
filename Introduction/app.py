@@ -13,8 +13,16 @@ Variables in python
 '''
 programe to take in a patients name age and status if new
 '''
-name = 'Desmond Onam'
-age = 24
-is_new = False
+# name = 'Desmond Onam'
+# age = 24
+# is_new = False
 
-print(f'{name} of {age} years old is new')
+# print(f'{name} of {age} years old is new')
+
+'''
+code to ask for name and color
+'''
+
+name = input("what is your name: ")
+color = input("What is your favourite color: ")
+print(f'{name} likes color {color}')
